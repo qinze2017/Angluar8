@@ -1,0 +1,26 @@
+Vous pouvez aussi activer et désactiver la restriction uniquement pour le compte courant.
+
+Syntaxe pour désactiver la restriction d'exécution des scripts PowerShell pour le compte courant:
+ Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"
+
+Syntaxe pour activer la restriction d'exécution des scripts PowerShell pour le compte courant:
+ Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "RemoteSigned"
+
+
+npm install -g @angular/cli
+
+ng new my-app
+cd my-app
+ng serve
+
+
+To find other Angular extensions, open the Extensions view (Ctrl+Shift+X) and type 'angular' to see a filtered list of Angular extensions.
+
+
+when you generate an new component with CLI you can add --spec=false to exclude the generation of a spec file. The full command for generating a new component would be: ng g component comp-name --spec=false. 
+More info here: github.com/angular/angular-cli/wiki/generate-component 
+this can be disabled by modifying angular-cli.json like this: { "defaults": { "component": { "spec": false } } }
+
+
+if you generate new angular project using "ng new", you may skip a generating of spec.ts files. For this you should apply --skip-tests option.
+ng new ng-app-name --skip-tests

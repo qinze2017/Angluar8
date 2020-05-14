@@ -1,0 +1,87 @@
+CLI(command-line interface) : Builders API ex: ng-build, ng-test and ng-run
+Builder : @Angular-Devkit/Build Angular @angular/Bazel
+Tools : Webpack, Typescript, Terser, Roll-up
+
+Angular 2 : built in the concept of the component
+Angular 4 : it supports Typescript
+Angular 5 : bring lots of features and many new improvements
+Angular 6 : building interactive web applications and Typescript, which is a super-set of JavaScript.
+Angular 7 : focuses on the Ivy project
+Angular 8 : supports for web workers
+
+Backward compatibility mode router that helps to generate the path for large projects and make it easier to move to Angular with lazy loading.
+A web worker is included while building the production bundles, which are essential for improving the parallel ability and help to increase the performance.
+Lazy loading is based on the concepts of Angular Routing and it helps bring down the size of large files by lazily loading the data that are required.
+Opt-in sharing telemetry can collect data commands used and the build speed if users allow them, which will help developers improve in the future.
+
+Angular JS VS Angular
+----------------------
+Angular JS is a JavaScript-based open-source front end web development.
+Angular is a typescript based full-stack web application framework.
+----------------------
+Angular JS uses the concept of scope or controller.
+Angular uses the hierarchy of components in place of scope and controllers.
+----------------------
+Angular JS does not support dynamic loading of the page.
+Angular supports dynamic loading of the page.
+----------------------
+Angular JS has simple syntax and used on HTML pages.
+Angular uses different expression syntax uses “[ ]” for property binding and “( )” event binding.
+----------------------
+Angular JS is a simple JavaScript file, used with HTML pages, and does not support the features of server site programming languages.
+It uses Typescript language which provides class-based object-oriented programming languages and support features of server site programming language.
+
+Angular Keywords :
+
+CDK : The Component Dev Kit (CDK) is a set of tools that implement common interaction patterns while being preserve about their presentation.
+CLI : It is a command-line tool for creating angular apps.
+Ng : All of the built-in directives that craft with Angular use that prefix ng.
+
+The essential modules :
+
+Modules : Angular 8 app has provided the bootstrap mechanism
+Some interactive features of Angular 8 modules : 
+- NgModules import the functionality from another NgModules just like other JavaScript modules.
+- NgModules allow their functionality to be imported and used by other modules
+
+Components :
+Every angular project has at least 1 component, the root component, and the root components connect the component with a page Document Object Module (DOM). 
+Each component defines a class which contains data, application, logic, and it is binding with the HTML template. 
+
+Templates :
+The angular template integrates the HTML with Angular mark-up that can modify HTML elements before they are displayed. 
+It provides program logic, and binding mark-up connects to your application data and the DOM.
+
+Metadata :
+Decorators are the metadata in Angular. It is used to enhance the class so it can configure the expected behavior of a class.
+
+Data-binding :
+Event Binding: Our app responds to user input in the target environment by updating our application data.
+Property Binding: It interpolates values that are computed from application data into the HTML : [property]="value"
+Interpolation: {{value}}: Interpolation sums the value of the property to the component.
+
+Directives :
+Directives used for expanding the functionality of HTML elements.
+Three types :
+Structural Directive, Attribute directive and component directives
+
+Services :
+Services used to reuse the code.
+
+Dependency Injection :
+It is a design pattern for efficiency and modularity.
+DI is wired into Angular into an Angular framework and used everywhere to provide new component with new services. 
+
+Pipes:
+A class with the @Pipe decorator defines a function which transforms an input value to output value for display in an amount.
+
+Update commandes :
+Ng update @angular/cli @angular/core
+
+The benefits of Angular 8 :
+Google Supported Community : Google’s long-term support (LTS)
+Plain Old JavaScript Object (POJO) : It used every object as an everyday old JavaScript object. It provides JavaScript functionality to enable manipulation of an object such as adding properties or removing properties from the purpose.
+Declarative User Interface : Angular uses HTML to define the view part of an Application, which is a complex language.
+Typescript : It promotes high security. It is easy to debug typescript code in an editor or a browser. 
+Modular Structure : Angular organizes code into modules whether it is components, directives, pipes, or services.
+Consistency in code : It maximizes the readability of the code.
